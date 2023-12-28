@@ -38,9 +38,9 @@ Running the "extractor.py" file will extact NBA team stats data, and saves the d
 
 To access the table data, execute the following query in MySQL Workbench:
 ```
-SELECT * FROM nbaRecords;
+SELECT * FROMs nbaRecords;
 
-SELECT * FROM nbaRecords WHERE wins = (SELECT MAX(wins) FROM nbaRecords)  -- Best team
+SELECT * FROM nbaRecords WHERE wins = (SELECT MAX(wins) FROM nbaRecords);  -- Best team
 SELECT * FROM nbaRecords WHERE wins < (SELECT AVG(wins) FROM nbaRecords); -- Under average teams
 ```
 

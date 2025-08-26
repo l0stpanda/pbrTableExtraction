@@ -7,7 +7,7 @@ import pandas as pd    # pip install pandas
 import mysql_library
 from datetime import datetime
 
-
+##Test commit
 def listMaker(confStandings, confName):
     confList = []
     currentDate = datetime.today().strftime('%Y-%m-%d')
